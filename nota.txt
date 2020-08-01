@@ -1,0 +1,1 @@
+use npm cache clean --force y  npm start -- --reset-cache

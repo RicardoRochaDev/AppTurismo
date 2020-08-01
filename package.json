@@ -1,0 +1,57 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.6.1",
+    "@react-navigation/bottom-tabs": "^5.5.1",
+    "@react-navigation/material-top-tabs": "^5.2.13",
+    "@react-navigation/native": "^5.5.0",
+    "@react-navigation/stack": "^5.4.1",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.19.2",
+    "graphql": "^15.1.0",
+    "native-base": "^2.13.12",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-native": "0.62.2",
+    "react-native-camera": "^3.30.0",
+    "react-native-elements": "^2.0.2",
+    "react-native-geolocation-service": "^5.0.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-crop-picker": "^0.32.2",
+    "react-native-maps": "0.27.1",
+    "react-native-permissions": "^2.1.5",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.0.2",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-screens": "^2.8.0",
+    "react-native-storage": "^1.0.1",
+    "react-native-tab-view": "^2.14.4",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-video": "^4.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
